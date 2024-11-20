@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yujin Park - Software Developer</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css" rel="stylesheet">
+    <style>
+        @page {
+            size: A4;
+            margin: 10mm;
+        }
+        body {
+            width: 210mm;
+            padding: 10mm;
+            margin: 0 auto;
+            font-size: 12px;
+            line-height: 1.2;
+        }
+        @media print {
+            body {
+                width: 210mm;
+                height: 297mm;
+            }
+            .page-break {
+                page-break-before: always;
+            }
+        }
+        .compact-list li {
+            margin-bottom: 0.15rem;
+        }
+        h1, h2, h3, h4 {
+            margin-bottom: 0.4rem;
+        }
+    </style>
+</head>
+<body class="bg-white">
+    <!-- Header Section -->
+    <header class="flex items-center justify-between mb-4 pb-3 border-b">
+        <div>
+            <h1 class="text-2xl font-bold text-gray-800">Yujin Park</h1>
+            <h2 class="text-lg text-blue-600">Software Developer</h2>
+        </div>
+        <div class="text-right">
+            <div class="text-xs text-gray-600">
+                <p>Email: yudility@gmail.com</p>
+                <p>Phone: +82 10-4069-0856</p>
+                <p><a href="https://github.com/yudility" class="text-blue-600 hover:underline">GitHub: github.com/yudility</a></p>
+            </div>
+        </div>
+    </header>
+
+    <!-- Professional Summary -->
+    <section class="mb-4">
+        <h3 class="text-base font-semibold text-gray-800">📝 Professional Summary</h3>
+        <p class="text-sm text-gray-700">
+            Versatile developer with expertise in backend services, game development, and AI applications. Proven ability to master new technologies quickly through hackathons and academic projects. Experienced in full software development lifecycle and seeking to expand into full-stack development.
+        </p>
+    </section>
+
+    <!-- Two Column Layout -->
+    <div class="flex gap-4 mb-4">
+        <section class="flex-1">
+            <h3 class="text-base font-semibold text-gray-800">🎓 Education</h3>
+            <div class="bg-gray-50 rounded-lg px-3 py-2">
+                <h4 class="font-bold text-gray-800">Ewha Womans University</h4>
+                <p class="text-sm text-gray-600">B.S. in Computer Science and Engineering<br>March 2021 - August 2024</p>
+            </div>
+        </section>
+        <section class="flex-1">
+            <h3 class="text-base font-semibold text-gray-800">🏆 Certifications & Awards</h3>
+            <ul class="text-sm text-gray-700 space-y-1">
+                <li>Engineer Information Processing (2024)</li>
+                <li>SQL Developer (SQLD) (2024)</li>
+                <li>Silver Award, Capstone Design Project (2023)</li>
+            </ul>
+        </section>
+    </div>
+
+    <!-- Technical Skills -->
+    <section class="mb-4">
+        <h3 class="text-base font-semibold text-gray-800">🛠️ Technical Skills</h3>
+        <div class="grid grid-cols-3 gap-2">
+            <div class="bg-gray-50 rounded-lg px-3 py-2">
+                <h4 class="font-bold text-sm text-gray-800">Languages</h4>
+                <p class="text-sm text-gray-600">Java, Python, JavaScript, C#, Lua</p>
+            </div>
+            <div class="bg-gray-50 rounded-lg px-3 py-2">
+                <h4 class="font-bold text-sm text-gray-800">Backend</h4>
+                <p class="text-sm text-gray-600">Spring Framework, JPA, Hibernate, FastAPI</p>
+            </div>
+            <div class="bg-gray-50 rounded-lg px-3 py-2">
+                <h4 class="font-bold text-sm text-gray-800">Game Development</h4>
+                <p class="text-sm text-gray-600">Unity, VR Development, Roblox Studio</p>
+            </div>
+            <!-- Add more items as needed -->
+        </div>
+    </section>
+
+    <!-- Projects and other sections -->
+    <!-- Repeat similar compact formatting -->
+</body>
+</html>
